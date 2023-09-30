@@ -1,7 +1,7 @@
 import java.util.concurrent.TimeUnit;
 
 class HelloWorld {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws InterruptedException {
     // This is my first hellow world program.
     System.out.println("Hello World !!!");
     TimeUnit.MINUTES.sleep(5);
